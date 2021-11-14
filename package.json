@@ -1,0 +1,27 @@
+{
+  "name": "tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "NODE_ENV=production node server.js",
+    "dev": "NODE_ENV=development nodemon server.js",
+    "calc": "nodemon calc.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kseniia-FS/node-tutorial.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kseniia-FS/node-tutorial/issues"
+  },
+  "homepage": "https://github.com/Kseniia-FS/node-tutorial#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "colors": "^1.4.0"
+  }
+}

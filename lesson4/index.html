@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Register form</h1>
+    <form action="http://localhost:5000/register" method="post">
+      <label
+        >Name
+        <input type="text" name="userName" placeholder="name" />
+      </label>
+      <label
+        >Email
+        <input type="email" name="userEmail" placeholder="email" />
+      </label>
+      <label
+        >Password
+        <input type="password" name="userPassword" placeholder="password" />
+      </label>
+      <button type="submit">Register</button>
+    </form>
+
+    <h2>You have new email</h2>
+    <p>Please check details</p>
+    <ul>
+      <li>Name: </li>
+      <li>Email: </li>
+      <li>Contact: </li>
+    </ul>
+    <p>Message</p>
+  </body>
+</html>
